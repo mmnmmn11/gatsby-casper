@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 자신의 꽃 사진
-image: img/callum-shaw-555357-unsplash.jpg
+title: 꽃을 찾아드립니다
+image: img/flower.jpg
 author: [Ghost]
-date: 2019-03-10T10:00:00.000Z
+date: 2022-01-17T10:00:00.000Z
 tags:
   - Source
 excerpt: Where to find this project on GitHub.
 ---
 
-## **A few things you should know**
+## 왜 이 프로젝트를 시작하게 되었나요?
 
 Find the source of this blog on GitHub - [scttcper/gatsby-casper](https://github.com/scttcper/gatsby-casper)
 
