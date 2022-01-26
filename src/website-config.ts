@@ -15,11 +15,11 @@ export interface WebsiteConfig {
   /**
    * full url, no username
    */
-  facebook?: string;
+  FLAGLY?: string;
   /**
    * full url, no username
    */
-  twitter?: string;
+  github?: string;
   /**
    * hide or show all email subscribe boxes
    */
@@ -54,14 +54,14 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'flower',
+  description: '앞으로 꽃길만 걷자',
   coverImage: 'img/blog-cover.png',
   logo: 'img/ghost-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
-  facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
+  FLAGLY: 'https://flagly.org/',
+  github: 'https://github.com/Seongnam-PreInternship',
   showSubscribe: true,
   mailchimpAction:
     'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',

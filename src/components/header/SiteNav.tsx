@@ -8,8 +8,9 @@ import styled from '@emotion/styled';
 import { colors } from '../../styles/colors';
 import { SocialLink, SocialLinkFb } from '../../styles/shared';
 import config from '../../website-config';
-import { Facebook } from '../icons/facebook';
-import { Twitter } from '../icons/twitter';
+//import { Facebook } from '../icons/facebook';
+//import { Twitter } from '../icons/twitter';
+import { FaFacebook, FaGithub } from 'react-icons/fa';
 import { SubscribeModal } from '../subscribe/SubscribeModal';
 import { SiteNavLogo } from './SiteNavLogo';
 
@@ -96,12 +97,12 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 </li>
                 <li role="menuitem">
                   <Link to="/about" activeClassName="nav-current">
-                    About
+                    My Flower 
                   </Link>
                 </li>
                 <li role="menuitem">
                   <Link to="/tags/getting-started/" activeClassName="nav-current">
-                    Getting Started
+                    My Calender
                   </Link>
                 </li>
               </ul>
@@ -120,21 +121,21 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                   css={[SocialLink, SocialLinkFb]}
                   href={config.facebook}
                   target="_blank"
-                  title="Facebook"
+                  title="FLAGLY"
                   rel="noopener noreferrer"
                 >
-                  <Facebook />
+                  <FaFacebook />
                 </a>
               )}
-              {config.twitter && (
+              {config.github && (
                 <a
                   css={SocialLink}
-                  href={config.twitter}
-                  title="Twitter"
+                  href={config.github}
+                  title="github"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Twitter />
+                  <FaGithub />
                 </a>
               )}
             </SocialLinks>
